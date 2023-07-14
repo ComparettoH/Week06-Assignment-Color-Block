@@ -28,7 +28,6 @@ $('#blocks').on("click", '.block', clearYellowBlock);
 
 // Create function that makes a red color block
 function makeRedBlock () {
-    console.log('In makeBlue')
     $('#blocks').append(`
     <span class= "block red-fill"</span>
     `)
@@ -36,13 +35,11 @@ function makeRedBlock () {
 
 // Create function that clears red block
 function clearRedBlock (){
-    console.log('In clearRed', $(this))
     $(this).remove()
 }
 
 // Create function that makes a blue color block
 function makeBlueBlock () {
-    console.log('In makeBlue')
     $('#blocks').append(`
     <span class= "block blue-fill"</span>
     `)
@@ -50,13 +47,11 @@ function makeBlueBlock () {
 
 // Create function that clears blue block
 function clearBlueBlock (){
-    console.log('In clearBlue', $(this))
     $(this).remove()
 }
 
 // Create function that makes a green color block
 function makeGreenBlock () {
-    console.log('In makeGreen')
     $('#blocks').append(`
     <span class= "block green-fill"</span>
     `)
@@ -64,13 +59,11 @@ function makeGreenBlock () {
 
 // Create function that clears green block
 function clearGreenBlock (){
-    console.log('In clearGreen', $(this))
     $(this).remove()
 }
 
 // Create function that makes a yellow color block
 function makeYellowBlock () {
-    console.log('In makeYellow')
     $('#blocks').append(`
     <span class= "block yellow-fill"</span>
     `)
@@ -78,6 +71,5 @@ function makeYellowBlock () {
 
 // Create function that clears yellow block
 function clearYellowBlock (){
-    console.log('In clearYellow', $(this))
     $(this).remove()
 }
